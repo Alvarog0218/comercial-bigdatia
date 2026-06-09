@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #0B1121;
+  --color-brand-card: #151E32;
+  --color-brand-primary: #06B6D4;
+  --color-brand-secondary: #8B5CF6;
+  --color-brand-accent: #10B981;
+  
+  --font-sans: "Inter", "sans-serif";
+}
+
+@layer base {
+  body {
+    @apply bg-brand-dark text-slate-50 antialiased selection:bg-brand-primary selection:text-white;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand-primary to-brand-secondary bg-clip-text text-transparent;
+  }
+  
+  .glass-card {
+    @apply bg-[rgba(21,30,50,0.7)] backdrop-blur-md border border-white/5;
+  }
+  
+  .pricing-highlight {
+    @apply bg-gradient-to-b from-brand-primary/10 to-brand-card/70 border border-brand-primary/30;
+  }
+}
