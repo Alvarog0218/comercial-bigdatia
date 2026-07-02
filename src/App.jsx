@@ -172,7 +172,7 @@ const Kits = () => (
             <p className="text-slate-400 text-sm">Para empezar a existir en digital con pie derecho.</p>
           </div>
           <div className="mb-8">
-            <div className="text-3xl font-bold text-white">$1.900.000 <span className="text-base font-normal text-slate-500">COP</span></div>
+            <div className="text-3xl font-bold text-white">$1.500.000 <span className="text-base font-normal text-slate-500">IVA incluido</span></div>
             <div className="text-xs text-brand-accent mt-2 bg-brand-accent/10 inline-block px-2 py-1 rounded">Ahorro del 53% vs individual</div>
           </div>
           
@@ -225,7 +225,7 @@ const Kits = () => (
           </div>
           <div className="mb-6">
             <div className="text-sm text-slate-400 line-through mb-1">Valor real: $7.200.000 COP</div>
-            <div className="text-4xl font-extrabold text-white mb-2">$3.800.000 <span className="text-base font-normal text-slate-400">COP</span></div>
+            <div className="text-4xl font-extrabold text-white mb-2">$3.000.000 <span className="text-base font-normal text-slate-400">IVA incluido</span></div>
             <div className="text-sm font-semibold text-brand-accent bg-brand-accent/10 border border-brand-accent/20 inline-block px-3 py-1.5 rounded text-center w-full">
               🔥 Ahorras 47% en paquete
             </div>
@@ -279,7 +279,7 @@ const Kits = () => (
             <p className="text-slate-400 text-sm">Para traccionar y crecer desde el primer mes.</p>
           </div>
           <div className="mb-8">
-            <div className="text-3xl font-bold text-white">$6.900.000 <span className="text-base font-normal text-slate-500">COP</span></div>
+            <div className="text-3xl font-bold text-white">$5.450.000 <span className="text-base font-normal text-slate-500">IVA incluido</span></div>
             <div className="text-xs text-brand-accent mt-2 bg-brand-accent/10 inline-block px-2 py-1 rounded">Ahorro del 40% vs individual</div>
           </div>
           
